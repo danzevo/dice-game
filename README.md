@@ -19,7 +19,7 @@ Build with php 7.4.
 
 Example:
 Player = 3, Dice = 4
---------------------
+
 Turn 1 roll the dice:
 Player #1 (0): 3,6,1,3
 Player #2 (0): 2,4,5.5
@@ -28,7 +28,7 @@ After evaluation:
 Player #1 (1): 3,3,1
 Player #2 (0): 2,4,5,5,1
 Player #3 (1): 2.5
--------------------
+
 Turn 2 roll the dice:
 Player #1 (1): 1,2,6
 Player #2 (0): 4,3,1,3,3
@@ -37,7 +37,7 @@ After evaluation:
 Player #1 (2): 2.1
 Player #2 (0): 4,3,3,3,1
 Player #3 (2): 1
----------------------
+
 Turn 3 roll the dice:Player #1 (2): 6.1
 Player #2 (0): 2,5,6,4,6
 Player #3 (2): 1
@@ -45,7 +45,7 @@ After evaluation:
 Player #1 (3): 1
 Player #2 (2): 2,5,4,1
 Player #3 (2): _ (Stop playing because it has no dice)
---------------------
+
 Turn 4 roll the dice:
 Player #1 (3): 1
 Player #2 (2): 3,4,5.5
@@ -54,6 +54,6 @@ After evaluation:
 Player #1(3): _ (Stop playing for not having dice)
 Player #2 (2): 3,4,5.5
 Player #3 (2): _ (Stop playing because it has no dice)
-====================
+
 Game ends because only player #2 has dice.
 Game won by player #1 because it has more points than other players
