@@ -18,42 +18,42 @@ a. Players who have no more dice are considered to have finished playing.
 Build with php 7.4.
 
 Example:
-Player = 3, Dice = 4
+Player = 3, Dice = 4<br/>
 ===================<br/>
-Turn 1 roll the dice:
-Player #1 (0): 3,6,1,3
-Player #2 (0): 2,4,5.5
-Player #3 (0): 1,2,5,6
-After evaluation:
-Player #1 (1): 3,3,1
-Player #2 (0): 2,4,5,5,1
-Player #3 (1): 2.5
-
-Turn 2 roll the dice:
-Player #1 (1): 1,2,6
-Player #2 (0): 4,3,1,3,3
-Player #3 (1): 1.6
-After evaluation:
-Player #1 (2): 2.1
-Player #2 (0): 4,3,3,3,1
-Player #3 (2): 1
-
-Turn 3 roll the dice:Player #1 (2): 6.1
-Player #2 (0): 2,5,6,4,6
-Player #3 (2): 1
-After evaluation:
-Player #1 (3): 1
-Player #2 (2): 2,5,4,1
-Player #3 (2): _ (Stop playing because it has no dice)
-
-Turn 4 roll the dice:
-Player #1 (3): 1
-Player #2 (2): 3,4,5.5
-Player #3 (2): _ (Stop playing because it has no dice)
-After evaluation:
-Player #1(3): _ (Stop playing for not having dice)
-Player #2 (2): 3,4,5.5
-Player #3 (2): _ (Stop playing because it has no dice)
-
-Game ends because only player #2 has dice.
+Turn 1 roll the dice:<br/>
+Player #1 (0): 3,6,1,3<br/>
+Player #2 (0): 2,4,5.5<br/>
+Player #3 (0): 1,2,5,6<br/>
+After evaluation:<br/>
+Player #1 (1): 3,3,1<br/>
+Player #2 (0): 2,4,5,5,1<br/>
+Player #3 (1): 2.5<br/>
+===================<br/>
+Turn 2 roll the dice:<br/>
+Player #1 (1): 1,2,6<br/>
+Player #2 (0): 4,3,1,3,3<br/>
+Player #3 (1): 1.6<br/>
+After evaluation:<br/>
+Player #1 (2): 2.1<br/>
+Player #2 (0): 4,3,3,3,1<br/>
+Player #3 (2): 1<br/>
+===================<br/>
+Turn 3 roll the dice:Player #1 (2): 6.1<br/>
+Player #2 (0): 2,5,6,4,6<br/>
+Player #3 (2): 1<br/>
+After evaluation:<br/>
+Player #1 (3): 1<br/>
+Player #2 (2): 2,5,4,1<br/>
+Player #3 (2): _ (Stop playing because it has no dice)<br/>
+===================<br/>
+Turn 4 roll the dice:<br/>
+Player #1 (3): 1<br/>
+Player #2 (2): 3,4,5.5<br/>
+Player #3 (2): _ (Stop playing because it has no dice)<br/>
+After evaluation:<br/>
+Player #1(3): _ (Stop playing for not having dice)<br/>
+Player #2 (2): 3,4,5.5<br/>
+Player #3 (2): _ (Stop playing because it has no dice)<br/>
+===================<br/>
+Game ends because only player #2 has dice.<br/>
 Game won by player #1 because it has more points than other players
