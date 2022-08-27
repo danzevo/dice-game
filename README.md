@@ -19,7 +19,7 @@ Build with php 7.4.
 
 Example:
 Player = 3, Dice = 4
-
+===================<br/>
 Turn 1 roll the dice:
 Player #1 (0): 3,6,1,3
 Player #2 (0): 2,4,5.5
